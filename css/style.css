@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+body{
+    font-family: 'League Gothic', sans-serif;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 90px 1fr;
+  
+    height: 100vh;
+
+}
+
+.left{
+ text-align: center;
+}
+    
+
+.left li{
+    list-style: none;
+    transition: .3s;
+    margin: 20px 0 0 -25px;padding: 10px
+}
+
+.left li:hover{
+    background-color: #F0F0F0;
+}
+
+.left li a i{
+    font-size: 20px;
+}
+.left li a p{
+    font-size: 10px;
+}
+.left li a{
+    text-decoration: none;
+    color: #000;
+    
+}
+
+
+.main{
+    display: flex;
+   margin-top: 20px;
+   justify-content: space-around;
+    border-bottom: #F0F0F0 solid 0.7px; 
+}
+.right h3{
+    font-family: 'League Gothic', sans-serif;
+}
+.leftt{
+    display: flex;
+    color: #000;
+    text-decoration: none;
+    
+}
+
+.leftt i{
+    font-size: 30px;
+    color: red;
+    margin-top: .1%;
+}
+
+.middle{
+    display: flex;
+   
+}
+.middle input{
+  
+   padding: 4px 100px;
+   border: #ccc solid 1px;
+   
+}
+.middle button{   
+    border: none;
+    padding: 5px 20px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: -5px;
+    cursor: pointer;
+
+}
+
+.record{ 
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #F9F9F9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+#btn-video {
+    border: none;
+    background-color: white;
+    margin-left: 20px;
+}
+.mid{
+  border-bottom:#F0F0F0 solid 0.7px;   
+}
+.slide{
+    display: flex;
+    margin: 15px;
+}
+
+.slide li{
+    list-style: none;
+    margin-left: 20px;
+    padding: 5px 10px;
+    border: 1px solid #CECECE;
+    background-color:#F0F0F0 ;
+    border-radius: 30px;
+    transition: .3s;
+}
+.slide li:hover{
+    background-color: #E5E5E5;
+}
+.slide li a{
+   text-decoration: none;
+   color: #000;
+}
+
+.last{
+    display: grid;
+    grid-template-columns: repeat(4 , auto);
+    grid-template-rows: repeat(2 , auto);
+    margin-top: 20px;
+}
+
+.last img{
+    width: 300px;
+    height: 200px;
+}
